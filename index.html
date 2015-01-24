@@ -98,17 +98,17 @@ $('#subtractButton').click(function(){
 </script>
 
 
-<h2>Parameter of a Rectangle (Fill in the formula)</h2>
+<h2>Parimeter of a Rectangle (Fill in the formula)</h2>
 Width:
-<input value="2" id="width">
+<input value="2" id="widthBox">
 Height:
-<input value="3" id="height">
+<input value="3" id="heightBox">
 <input type="button" value="calcuate parameter" id="parameterButton">
-<span id="parameterResult"></span>
+<span id="parimeterResult"></span>
 <script>
-$('#parameterButton').click(function(){
-  var width = Number($('#width'). val())
-  var height = Number($('#height').val())
+$('#parimeterButton').click(function(){
+  var width = Number($('#widthBox'). val())
+  var height = Number($('#heightBox').val())
   // Fill in the formula for a parameter here:
   var result = width * 2 + height * 2;
   $('#parameterResult').text(result)
